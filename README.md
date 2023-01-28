@@ -57,3 +57,9 @@ manage.py migrate
 ```bash
 python manage.py runserver
 ```
+
+Команда для создания образа:
+docker build --tag app .
+
+Команда для запуска контейнера:
+docker run --publish 8000:8000 app
